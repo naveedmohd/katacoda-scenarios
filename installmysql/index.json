@@ -6,7 +6,7 @@
   "details": {
     "steps": [{
       "title": "Step 1 - Pull Mysql image from docker",
-      "text": "step1-pullimage.md"
+      "text": "step1-pullimage.md",
       "code": "pullimage.sh"
     }],
     "intro": {
