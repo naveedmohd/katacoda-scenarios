@@ -1,0 +1,27 @@
+{
+  "title": "Installing MySQL database as a Docker Image",
+  "description": "Installing MySQL database in Docker Image",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Pull Mysql image from docker",
+      "text": "step1-pullimage.md"
+      "code": "pullimage.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}
