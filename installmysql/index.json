@@ -4,11 +4,18 @@
   "difficulty": "beginner",
   "time": "60 minutes",
   "details": {
-    "steps": [{
+    "steps": [
+     {
       "title": "Step 1 - Pull Mysql image from docker",
       "text": "step1-pullimage.md",
       "code": "pullimage.sh"
-    }],
+    },
+     {
+      "title": "Step 2 - Create a new database called STUDENTDB",
+      "text": "step2-createdb.md",
+      "code": "createdb.sh"
+    }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
