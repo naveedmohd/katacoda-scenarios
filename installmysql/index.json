@@ -6,12 +6,12 @@
   "details": {
     "steps": [
      {
-      "title": "Pull Mysql image from docker",
+      "title": "Pull mysql image from docker",
       "text": "step1-pullimage.md",
       "code": "pullimage.sh"
     },
      {
-      "title": "Create Mysql database and list the container processs",
+      "title": "Create mysql database and list the container processs",
       "text": "step2-createdb.md",
       "code": "createdb.sh"
     }
