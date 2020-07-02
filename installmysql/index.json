@@ -37,7 +37,7 @@
       ],
       "host01": [
         {
-          "file": "*",
+          "file": "mysqlschema.sql",
           "target": "/root"
         }
       ]
