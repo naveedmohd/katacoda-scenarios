@@ -1,3 +1,3 @@
 docker exec -it mysql /bin/bash
 
-mysql -h localhost -u demo -ppassword
+mysql -h localhost -u root -padmin
