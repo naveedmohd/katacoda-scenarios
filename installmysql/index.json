@@ -32,7 +32,7 @@
       "client": [
         {
           "file": "mysqlschema.sql",
-          "target": "/root"
+          "target": "~/"
         }
       ],
       "host01": [
