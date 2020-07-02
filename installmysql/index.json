@@ -16,10 +16,14 @@
       "code": "createdb.sh"
     },
      {
-      "title": "Create database schema and insert data into tables",
-      "text": "step3-createschema.md",
+      "title": "Copy database schema into the docker container",
+      "text": "step3-copyschema.md",
+    },
+     {
+      "title": "Create mysql schema using the file mysqlschema.sql",
+      "text": "step4-createschema.md",
       "code": "createschema.sh"
-    }
+    },
     ],
     "intro": {
       "text": "intro.md",
