@@ -14,6 +14,11 @@
       "title": "Create mysql database and list the container processs",
       "text": "step2-createdb.md",
       "code": "createdb.sh"
+    },
+     {
+      "title": "Create database schema and insert data into tables",
+      "text": "step3-createschema.md",
+      "code": "createschema.sh"
     }
     ],
     "intro": {
@@ -22,6 +27,20 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "~/root"
+        }
+      ],
+      "host01": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "~/root"
+        }
+      ]
     }
   },
   "environment": {
