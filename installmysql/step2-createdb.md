@@ -1,9 +1,6 @@
 Second step: Run MYSQL image on the docker container 
 
-## Task
-## Creating mysql container Example
-
-Search docker hub for mysql image. Click on this Run Command `docker search mysql`{{execute}}
+## Creating mysql container
 
 The following docker command will create the following:
 	1. Creates a database called STUDENTDB using the flag MYSQL_DATABASE
@@ -12,10 +9,6 @@ The following docker command will create the following:
 	4. Creates a password for the new user using the flag MYSQL_PASSWORD
 	5. Finally, gives a name to the container using the flag name
 
-Search docker hub for mysql image. Click on this Run Command `docker search mysql`{{execute}}
 `docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=studentdb -e MYSQL_USER=demo -e MYSQL_PASSWORD=demo mysql`{{execute}}
 
-
-Once the above steps are complete, you can check the running MYSQL container using the below command
-
-	`docker ps`
+Once the above steps are complete, you can check the running MYSQL container using `docker search mysql`{{execute}}
