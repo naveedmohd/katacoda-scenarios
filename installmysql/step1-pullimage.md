@@ -1,37 +1,11 @@
-A Katacoda course is defined by creating a pathway file. The pathway defines which scenarios should be included in the course and the order to display them.
 
-The collection of examples contains two courses, one to describe all the Katacoda content and another to describe the key Katacoda environments.
+Step1: The following commands will search for mysql image using docker and creates latest mysql image.
 
-## Clone Example
+## Creating mysql container Example
 
-Clone the example repository with the command `docker search mysql`{{execute}}
+Search docker hub for mysql image. Click on this Run Command `docker search mysql`{{execute}}
 
-Within the root of a repository, a course has been created called `uilayouts`. The contents of the course have been defined as `katacoda-scenario-examples/uilayouts-pathway.json`{{open}}.
+Pull mysql image from docker registry. Click on this Run Command `docker pull mysql`{{execute}}
 
-Within the JSON file, the courses element defines each scenario. For example:
-
-<pre class="file">
-{
-    "course_id": "uilayout-terminal",
-    "title": "Scenario with Terminal UI",
-    "description": "Katacoda Scenario Example"
-},
-</pre>
-
-The **course_id** is the scenario name directory within the course directory. For example `ls katacoda-scenario-examples/uilayouts/uilayout-terminal`{{execute}}. The **title** and **description** are shown on the course page.
-
-The first step is to pull image from docker
-
-
-Search docker hub for mysql image
-
-	`docker search mysql`{{execute}}
-
-Pull mysql image from docker registry
-
-	`docker pull mysql`{{execute}}
-
-Latest image will be downloaded and one can list the image using:
-
-	`docker images`{{execute}}
+Check the mysql image created. Click on this Run Command `docker search mysql`{{execute}}
 
