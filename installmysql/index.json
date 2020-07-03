@@ -20,8 +20,12 @@
       "text": "step3-copyschema.md"
     },
      {
+      "title": "Verify the newly created database studentdb",
+      "text": "step4-checkdatabase.md",
+    },
+     {
       "title": "Create mysql schema using the file mysqlschema.sql",
-      "text": "step4-createschema.md",
+      "text": "step5-createschema.md",
       "code": "createschema.sh"
     }
     ],

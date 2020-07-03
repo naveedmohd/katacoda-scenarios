@@ -11,4 +11,4 @@ The following docker command will create the following:
 
 `docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=studentdb -e MYSQL_USER=demo -e MYSQL_PASSWORD=demo mysql`{{execute}}
 
-Once the above steps are complete, you can check the running MYSQL container using `docker search mysql`{{execute}}
+Once the above steps are complete, you can check the running MYSQL container using `docker ps`{{execute}}
