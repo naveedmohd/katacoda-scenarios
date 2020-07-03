@@ -7,5 +7,5 @@ Search docker hub for mysql image. Click on this Run Command `docker search mysq
 
 Pull mysql image from docker registry. Click on this Run Command `docker pull mysql`{{execute}}
 
-Check the mysql image created. Click on this Run Command `docker search mysql`{{execute}}
+Check the mysql image created. Click on this Run Command `docker images mysql`{{execute}}
 
