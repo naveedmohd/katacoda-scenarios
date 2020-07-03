@@ -21,7 +21,7 @@
     },
      {
       "title": "Verify the newly created database studentdb",
-      "text": "step4-checkdatabase.md",
+      "text": "step4-checkdatabase.md"
     },
      {
       "title": "Create mysql schema using the file mysqlschema.sql",
