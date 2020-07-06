@@ -6,17 +6,17 @@
   "details": {
     "steps": [
      {
-      "title": "Connect to studentdb database",
-      "text": "step1-connecttodb.md",
-      "code": "connectdb.sh"
-    },
-     {
-      "title": "Create mysql database and list the container processs",
-      "text": "step2-createdb.md",
+      "title": "Creating mysql database : studentdb",
+      "text": "step1-createdb.md",
       "code": "createdb.sh"
     },
      {
-      "title": "Copy database schema into the docker container",
+      "title": "Connecting to your mysql database : studentdb",
+      "text": "step2-connectdb.md",
+      "code": "connectdb.sh"
+    },
+     {
+      "title": "Connect to studentdb database",
       "text": "step3-copyschema.md"
     },
      {
