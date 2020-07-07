@@ -6,12 +6,12 @@
   "details": {
     "steps": [
      {
-      "title": "Creating mysql database : studentdb",
+      "title": "Creating mysql database : HR",
       "text": "step1-createdb.md",
       "code": "createdb.sh"
     },
      {
-      "title": "Connecting to your mysql database : studentdb",
+      "title": "Connecting to your mysql database : HR",
       "text": "step2-connectdb.md",
       "code": "connectdb.sh"
     },
