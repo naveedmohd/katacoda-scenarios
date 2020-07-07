@@ -38,13 +38,13 @@
    "assets": {
       "client": [
         {
-          "file": "mysqlschema.sql",
+          "file": "hrschema.sql",
           "target": "~/"
         }
       ],
       "host01": [
         {
-          "file": "mysqlschema.sql",
+          "file": "hrschema.sql",
           "target": "/root"
         }
       ]
