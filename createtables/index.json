@@ -11,22 +11,21 @@
       "code": "createdb.sh"
     },
      {
-      "title": "Connecting to your mysql database : HR",
-      "text": "step2-connectdb.md",
+      "title": "Create Tables in database : HR",
+      "text": "step2-createtables.md",
       "code": "connectdb.sh"
     },
      {
-      "title": "Connect to studentdb database",
-      "text": "step3-copyschema.md"
+      "title": "Create Primary Key Constraints",
+      "text": "step3-createpk.md"
     },
      {
-      "title": "Verify the newly created database studentdb",
-      "text": "step4-checkdatabase.md"
+      "title": "Create Foreign Key Constraints",
+      "text": "step4-createfk.md"
     },
      {
-      "title": "Create mysql schema using the file mysqlschema.sql",
-      "text": "step5-createschema.md",
-      "code": "createschema.sh"
+      "title": "Review HR schema Objects",
+      "text": "step5-reviewschema.md"
     }
     ],
     "intro": {
