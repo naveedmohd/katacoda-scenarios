@@ -7,7 +7,6 @@ We now have our database name, database user and the password from the previous 
 We will now create our own database schema using the following steps.
 
 	1. Connect to the Docker Container using the below command.
-
 		`docker exec -it mysql /bin/bash`{{execute}}
 
 	2. Connect to mysql database using the username "root" and password "admin"
