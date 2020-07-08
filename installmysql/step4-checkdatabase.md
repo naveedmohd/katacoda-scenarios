@@ -12,8 +12,4 @@ We will now create our own database schema using the following steps.
 
 3. You are now connected to mysql database as a root user.
 
-4. Please check the existance of database "studentdb" using the below command.
-
-	mysql> SHOW DATABASES;
-
 Please continue to the next step to create tables, load data into the tables.
