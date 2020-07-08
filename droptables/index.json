@@ -16,16 +16,16 @@
       "code": "connectdb.sh"
     },
      {
-      "title": "Create Primary Key Constraints",
-      "text": "step3-createpk.md"
+      "title": "Drop Foreign Key Constraints",
+      "text": "step3-dropfk.md"
     },
      {
-      "title": "Create Foreign Key Constraints",
-      "text": "step4-createfk.md"
+      "title": "Drop Primary Key Constraints",
+      "text": "step4-droppk.md"
     },
      {
-      "title": "Review HR schema Objects",
-      "text": "step5-reviewschema.md"
+      "title": "Drop Tables and Review Schema",
+      "text": "step5-droptables.md"
     }
     ],
     "intro": {
