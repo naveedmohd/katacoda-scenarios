@@ -17,7 +17,8 @@
     },
      {
       "title": "Copy database schema into the docker container",
-      "text": "step3-copyschema.md"
+      "text": "step3-copyschema.md",
+      "code": "copyschema.sh"
     },
      {
       "title": "Verify the newly created database studentdb",
