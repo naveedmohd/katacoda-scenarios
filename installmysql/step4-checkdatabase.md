@@ -6,18 +6,13 @@ We now have our database name, database user and the password from the previous 
 
 We will now create our own database schema using the following steps.
 
-Search docker hub for mysql image. Click on this Run Command `docker search mysql`{{execute}}
+1. Connect to the docker container using `docker exec -it mysql /bin/bash`{{execute}}
 
-	1. Connect to the Docker Container using the below command.
-		`docker exec -it mysql /bin/bash`{{execute}}
+2. Connect to mysql database with username "root" and password "admin" `mysql -h localhost -u root -padmin`{{execute}}
 
-	2. Connect to mysql database using the username "root" and password "admin"
+3. You are now connected to mysql database as a root user.
 
-		`mysql -h localhost -u root -padmin`{{execute}}
-
-	3. You are now connected to mysql database as a root user.
-
-Once the above steps are complete, you can check the database STUDENTDB that you have created.
+4. Please check the existance of database "studentdb" using the below command.
 
 	mysql> SHOW DATABASES;
 
