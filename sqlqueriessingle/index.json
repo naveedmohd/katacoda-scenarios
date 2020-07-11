@@ -11,13 +11,12 @@
       "code": "createdb.sh"
     },
      {
-      "title": "Create Tables in database : studentdb",
-      "text": "step2-createtables.md",
-      "code": "connectdb.sh"
+      "title": "Query to get count of rows",
+      "text": "step2-querycount.md"
     },
      {
-      "title": "Drop Foreign Key Constraints",
-      "text": "step3-dropfk.md"
+      "title": "Query to apply filter and get count",
+      "text": "step3-filtercount.md"
     },
      {
       "title": "Drop Primary Key Constraints",
