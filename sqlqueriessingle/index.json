@@ -1,0 +1,60 @@
+{
+  "title": "SQL: Querying from a single table",
+  "description": "SQL: Querying from a single table",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating mysql database : studentdb",
+      "text": "step1-createdb.md",
+      "code": "createdb.sh"
+    },
+     {
+      "title": "Create Tables in database : studentdb",
+      "text": "step2-createtables.md",
+      "code": "connectdb.sh"
+    },
+     {
+      "title": "Drop Foreign Key Constraints",
+      "text": "step3-dropfk.md"
+    },
+     {
+      "title": "Drop Primary Key Constraints",
+      "text": "step4-droppk.md"
+    },
+     {
+      "title": "Drop Tables and Review Schema",
+      "text": "step5-droptables.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

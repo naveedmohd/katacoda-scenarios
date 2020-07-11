@@ -1,0 +1,5 @@
+
+
+`ALTER TABLE dept_emp DROP CONSTRAINT FK_EMPNO;`{{execute}}
+
+`ALTER TABLE dept_emp DROP CONSTRAINT FK_DEPTNO;`{{execute}}
