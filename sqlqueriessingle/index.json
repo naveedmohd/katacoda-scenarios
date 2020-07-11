@@ -19,8 +19,8 @@
       "text": "step3-filtercount.md"
     },
      {
-      "title": "Drop Primary Key Constraints",
-      "text": "step4-droppk.md"
+      "title": "Using tablename alias and columnname alias in queries",
+      "text": "step4-aliastablecolums.md"
     },
      {
       "title": "Drop Tables and Review Schema",
