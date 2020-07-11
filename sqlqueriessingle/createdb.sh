@@ -10,6 +10,8 @@ id=`docker ps --format "{{.ID}}"`
 
 `docker cp mysqlschema.sql  $id:/`
 
+`docker exec -it mysql /bin/bash`
+
 `mysql -h localhost -u root -padmin`
 
 `use studentdb`
