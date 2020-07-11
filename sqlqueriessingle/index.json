@@ -21,10 +21,6 @@
      {
       "title": "Using tablename alias and columnname alias in queries",
       "text": "step4-aliastablecolums.md"
-    },
-     {
-      "title": "Drop Tables and Review Schema",
-      "text": "step5-droptables.md"
     }
     ],
     "intro": {
