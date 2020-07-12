@@ -1,0 +1,55 @@
+{
+  "title": "SQL: Querying from multiple table",
+  "description": "SQL: Querying from multiple table",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating mysql database : studentdb",
+      "text": "step1-createdb.md",
+      "code": "createdb.sh"
+    },
+     {
+      "title": "Query to join both student and score table",
+      "text": "step2-querystudentscore.md"
+    },
+     {
+      "title": "Query to join both grade_event and score table",
+      "text": "step3-querygradeeventscore.md"
+    },
+     {
+      "title": "Query to join all 3 tables student, score and grade_event",
+      "text": "step4-queryalltables.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
