@@ -17,10 +17,6 @@
      {
       "title": "Inner Join Query to show employees working for different departments",
       "text": "step3-queryempdept.md"
-    },
-     {
-      "title": "Query to join all 3 tables student, score and grade_event",
-      "text": "step4-queryalltables.md"
     }
     ],
     "intro": {
