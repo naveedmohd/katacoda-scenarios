@@ -1,0 +1,55 @@
+{
+  "title": "SQL: Using Inner Joins in Query",
+  "description": "SQL: Using Inner Join in Query",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating mysql database : scott",
+      "text": "step1-createdb.md",
+      "code": "createdb.sh"
+    },
+     {
+      "title": "Inner Join Query joining both DEPT and EMP tables",
+      "text": "step2-queryempdept.md"
+    },
+     {
+      "title": "Inner Join Query to show employees working for different departments",
+      "text": "step3-queryempdept.md"
+    },
+     {
+      "title": "Query to join all 3 tables student, score and grade_event",
+      "text": "step4-queryalltables.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "scott.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "scott.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
