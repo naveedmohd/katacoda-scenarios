@@ -1,8 +1,10 @@
-SQL Query result after joining EMP and DEPT tables `SELECT e.EMPNO, e.ENAME, e.JOB, e.MGR, e.SAL, e.COMM, d.DEPTNO FROM EMP e, DEPT d where e.DEPTNO = d.DEPTNO;`{{execute}}
 
-SQL Query result showing SUM, MIN, MAX, AVG Salary GROUP BY DEPTNO after joining EMP and DEPT tables `SELECT d.DEPTNO, SUM(SAL), MIN(SAL), MAX(SAL), AVG(SAL) FROM EMP e, DEPT d where e.DEPTNO = d.DEPTNO GROUP BY DEPTNO;`{{execute}}
+SQL LEFT OUTER JOIN query with EMP table on LHS and DEPT on RHS returning ALL results where deptno is same + any deptno that is missing from LHS table EMP. `select * from EMP LEFT OUTER JOIN DEPT ON EMP.DEPTNO = DEPT.DEPTNO;`{{execute}}
 
-SQL Query result showing SUM, MIN, MAX, AVG Salary GROUP BY MGR after joining EMP and DEPT tables `SELECT e.MGR, SUM(SAL), MIN(SAL), MAX(SAL), AVG(SAL) FROM EMP e, DEPT d where e.DEPTNO = d.DEPTNO GROUP BY MGR;`{{execute}}
+SQL LEFT OUTER JOIN query with DEPT table on LHS and EMP on RHS returning ALL results where deptno are same + any deptno that is missing from LHS DEPT. `select * from DEPT LEFT OUTER JOIN EMP ON EMP.DEPTNO = DEPT.DEPTNO;`{{execute}}
 
-SQL Query result showing SUM, MIN, MAX, AVG Salary GROUP BY JOB after joining EMP and DEPT tables `SELECT  e.JOB, SUM(SAL), MIN(SAL), MAX(SAL), AVG(SAL) FROM EMP e, DEPT d where e.DEPTNO = d.DEPTNO GROUP BY e.JOB;`{{execute}}
+SQL RIGHT OUTER JOIN query with EMP table on LHS and DEPT on RHS returning ALL results where deptno are same + any deptno that is missing from RHS table DEPT . `select * from EMP RIGHT OUTER JOIN DEPT ON EMP.DEPTNO = DEPT.DEPTNO;`{{execute}}
+
+SQL RIGHT OUTER JOIN query with DEPT table on LHS and EMP on RHS returning ALL results where deptno are same + any deptno that is missing from RHS table EMP. `select * from DEPT RIGHT OUTER JOIN EMP ON EMP.DEPTNO = DEPT.DEPTNO;`{{execute}}
+
 
