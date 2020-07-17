@@ -1,0 +1,55 @@
+{
+  "title": "SQL: Insert data into tables",
+  "description": "SQL: Insert data into tables",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating mysql database : scott",
+      "text": "step1-createdb.md",
+      "code": "createdb.sh"
+    },
+     {
+      "title": "Creating New Employee and Department",
+      "text": "step2-insertdata.md"
+    },
+     {
+      "title": "Updating existing Employee and Department values",
+      "text": "step3-updatedata.md"
+    },
+     {
+      "title": "Deleting existing Employees and Departments",
+      "text": "step4-deletedata.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "scott.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "scott.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
