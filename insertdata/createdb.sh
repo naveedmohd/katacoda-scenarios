@@ -14,6 +14,12 @@ docker exec -it mysql /bin/bash
 
 `mysql -h localhost -u root -padmin`
 
-`use scott`
-
-`source scott.sql`
+if echo [ "$?"  = "0" ]; then
+	`use scott`
+	`source scott.sql`
+else
+	sleep 3;
+	`mysql -h localhost -u root -padmin`
+	`use scott`
+	`source scott.sql`
+fi
