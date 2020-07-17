@@ -14,7 +14,7 @@ docker exec -it mysql /bin/bash
 
 sleep 10;
 
-`mysql -h localhost -u root -padmin`
+mysql -h localhost -u root -padmin
 
 `use scott`
 
