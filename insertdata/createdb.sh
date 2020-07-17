@@ -12,16 +12,10 @@ id=`docker ps --format "{{.ID}}"`
 
 docker exec -it mysql /bin/bash
 
-sleep 5;
+sleep 10;
 
 `mysql -h localhost -u root -padmin`
 
-if echo [ "$?"  = "0" ]; then
-	`use scott`
-	`source scott.sql`
-else
-	sleep 3;
-	`mysql -h localhost -u root -padmin`
-	`use scott`
-	`source scott.sql`
-fi
+`use scott`
+
+`source scott.sql`
