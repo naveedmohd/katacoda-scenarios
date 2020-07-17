@@ -12,6 +12,8 @@ id=`docker ps --format "{{.ID}}"`
 
 docker exec -it mysql /bin/bash
 
+sleep 5;
+
 `mysql -h localhost -u root -padmin`
 
 if echo [ "$?"  = "0" ]; then
