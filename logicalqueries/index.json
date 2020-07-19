@@ -15,8 +15,8 @@
       "text": "step2-logical_AND_OR.md"
     },
      {
-      "title": "Updating existing Employee and Department values",
-      "text": "step3-updatedata.md"
+      "title": "Logical IN, NOT IN Operators",
+      "text": "step3-logical_IN_NOTIN.md"
     },
      {
       "title": "Deleting existing Employees and Departments",
