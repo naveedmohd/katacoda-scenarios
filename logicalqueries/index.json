@@ -25,6 +25,10 @@
      {
       "title": "Mysql BETWEEN Operator",
       "text": "step5-BETWEEN_operator.md"
+    },
+     {
+      "title": "Logical CASE Statements",
+      "text": "step6-CASE_statements.md"
     }
     ],
     "intro": {
