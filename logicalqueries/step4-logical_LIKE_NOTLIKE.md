@@ -1,5 +1,5 @@
 
-Select Query with logical LIKE operator `Select * from EMP where (job LIKE 'MANAGER' OR job LIKE 'ANA%' OR job LIKE '%MAN') AND (deptno IN(10,20)));`{{execute}}
+Select Query with logical LIKE operator `Select * from EMP where ((job LIKE 'MANAGER' OR job LIKE 'ANA%' OR job LIKE '%MAN') AND (deptno IN(10,20)));`{{execute}}
 
 Select Query with logical LIKE operator `Select * from DEPT where (deptno IN(10,20) AND (dname LIKE 'RES%' OR dname LIKE 'ACC%'));`{{execute}}
 
