@@ -19,8 +19,8 @@
       "text": "step3-logical_IN_NOTIN.md"
     },
      {
-      "title": "Deleting existing Employees and Departments",
-      "text": "step4-deletedata.md"
+      "title": "Logical EXISTS, NOT EXISTS Operator",
+      "text": "step4-logical_LIKE_NOTLIKE.md"
     }
     ],
     "intro": {
