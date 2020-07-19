@@ -19,8 +19,12 @@
       "text": "step3-logical_IN_NOTIN.md"
     },
      {
-      "title": "Logical EXISTS, NOT EXISTS Operator",
+      "title": "Logical LIKE, NOT LIKE Operator",
       "text": "step4-logical_LIKE_NOTLIKE.md"
+    },
+     {
+      "title": "Mysql BETWEEN Operator",
+      "text": "step5-BETWEEN_operator.md"
     }
     ],
     "intro": {
