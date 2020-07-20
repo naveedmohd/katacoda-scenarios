@@ -11,12 +11,20 @@
       "code": "createdb.sh"
     },
      {
-      "title": "SubQuery - Using EXISTS and NOT EXISTS",
-      "text": "step2-existsnotexists.md"
+      "title": "SubQuery - Using EXISTS Clause",
+      "text": "step2-existsclause.md"
     },
      {
-      "title": "Inner Join Query to show employees working for different departments",
-      "text": "step3-queryempdept.md"
+      "title": "SubQuery - Using IN Clause",
+      "text": "step3-inclause.md"
+    },
+     {
+      "title": "SubQuery - Using NOT-EXISTS Clause",
+      "text": "step4-notexistsclause.md"
+    },
+     {
+      "title": "SubQuery - Using NOT-IN Clause",
+      "text": "step5-notinclause.md"
     }
     ],
     "intro": {
