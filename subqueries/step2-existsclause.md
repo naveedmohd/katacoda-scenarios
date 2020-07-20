@@ -10,12 +10,12 @@ Subquery using EXISTS Clause `select deptno, count(*)
 
 Subquery using EXISTS Clause `select * from studentdb.score sc 
 	where EXISTS(select 1 from student s, grade_event g 
-	where s.student_id = sc.student_id and g.grade_event = sc.event_id
+	where s.student_id = sc.student_id and g.event_id = sc.event_id
 	);`{{execute}}
 
 Subquery using EXISTS Clause `select student_id
 	, event_id, sum(score), avg(score) 
 	from studentdb.score sc where EXISTS
 	(select 1 from student s, grade_event g where s.student_id = sc.student_id 
-	and g.grade_event = sc.event_id
+	and g.event_id = sc.event_id
 	) group by student_id, event_id;`{{execute}}
