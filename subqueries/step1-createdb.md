@@ -15,7 +15,7 @@ Use scott database `use scott`{{execute}}
 
 Creating required objects for scott database `source scott.sql`{{execute}}
 
-Create studentdb database `create database studentdb`{{execute}}
+Create studentdb database `create database studentdb;`{{execute}}
 
 Use studentdb database `use studentdb`{{execute}}
 

@@ -11,8 +11,8 @@
       "code": "createdb.sh"
     },
      {
-      "title": "Inner Join Query joining both DEPT and EMP tables",
-      "text": "step2-queryempdept.md"
+      "title": "SubQuery - Using EXISTS and NOT EXISTS",
+      "text": "step2-existsnotexists.md"
     },
      {
       "title": "Inner Join Query to show employees working for different departments",
