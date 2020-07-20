@@ -8,7 +8,9 @@ docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=scott 
 
 id=`docker ps --format "{{.ID}}"`
 
-`docker cp *.sql  $id:/`
+`docker cp scott.sql  $id:/`
+
+`docker cp mysqlschema.sql  $id:/`
 
 docker exec -it mysql /bin/bash
 
@@ -17,8 +19,6 @@ docker exec -it mysql /bin/bash
 `use scott`
 
 `source scott.sql`
-
-`create database studentdb`
 
 `use studentdb`
 

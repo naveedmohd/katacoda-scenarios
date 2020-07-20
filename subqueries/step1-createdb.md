@@ -15,6 +15,8 @@ Use scott database `use scott`{{execute}}
 
 Creating required objects for scott database `source scott.sql`{{execute}}
 
+Create studentdb database `create database studentdb`{{execute}}
+
 Use studentdb database `use studentdb`{{execute}}
 
 Creating required objects for studentdb database `source mysqlschema.sql`{{execute}}
