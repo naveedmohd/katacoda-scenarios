@@ -13,4 +13,8 @@ Connecting to scott database as root `mysql -h localhost -u root -padmin`{{execu
 
 Use scott database `use scott`{{execute}}
 
-Creating required objects `source scott.sql`{{execute}}
+Creating required objects for scott database `source scott.sql`{{execute}}
+
+Use studentdb database `use studentdb`{{execute}}
+
+Creating required objects for studentdb database `source mysqlschema.sql`{{execute}}
