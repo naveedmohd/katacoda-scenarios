@@ -1,0 +1,63 @@
+{
+  "title": "SQL: Math Functions",
+  "description": "SQL: Math Functions",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating mysql database : scott",
+      "text": "step1-createdb.md",
+      "code": "createdb.sh"
+    },
+     {
+      "title": "SIN, MIN, MAX, AVG Functions",
+      "text": "step2-sum_min_max_avg.md"
+    },
+     {
+      "title": "SIN, COS, TAN Trignometric Functions",
+      "text": "step3-trignometric_functions.md"
+    },
+     {
+      "title": "SQRT, POW, CEIL, FLOUR functions",
+      "text": "step4-pow_exp_ceil_flour.md"
+    },
+     {
+      "title": "GREATEST, LEAST functions",
+      "text": "step5-greatest_least_functions.md"
+    },
+     {
+      "title": "GROUP BY, HAVING and COUNT functions",
+      "text": "step6-GROUP_BY_functions.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "scott.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "scott.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
