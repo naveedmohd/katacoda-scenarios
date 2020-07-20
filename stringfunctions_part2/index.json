@@ -25,6 +25,10 @@
      {
       "title": "STRCMP string function",
       "text": "step5-strcmpfunction.md"
+    },
+     {
+      "title": "COALESCE_NULL function",
+      "text": "step6-coalescefunction.md"
     }
     ],
     "intro": {
