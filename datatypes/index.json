@@ -15,16 +15,12 @@
       "text": "step2-createstringdatatypes.md"
     },
      {
-      "title": "Create Primary Key Constraints",
-      "text": "step3-createpk.md"
+      "title": "Create Table columns with NUMERIC datatypes",
+      "text": "step3-createnumericdatatypes.md"
     },
      {
-      "title": "Create Foreign Key Constraints",
-      "text": "step4-createfk.md"
-    },
-     {
-      "title": "Review HR schema Objects",
-      "text": "step5-reviewschema.md"
+      "title": "Create Table coluns with DATE datatypes",
+      "text": "step4-createdatedatatypes.md"
     }
     ],
     "intro": {
