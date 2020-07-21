@@ -3,20 +3,22 @@
 
 Use HR database `use hr`{{execute}}
 
-`CREATE TABLE employees (
+`Create table employee with all available STRING data types 
+CREATE TABLE employees (
 emp_no CHAR(10)
 , first_name VARCHAR(50)
-, last_name TINYTEXT(50)
+, last_name TINYTEXT
 , Employee_Description TEXT(1000)
-, Employee_Address MEDIUMTEXT(5000)
-, Employee_Work_History LONGTEXT(10MB)
+, Employee_Address MEDIUMTEXT
+, Employee_Work_History LONGTEXT
 , Employee_Picture BINARY(255)
 , Employee_Location VARBINARY(255)
 );`{{execute}}
 
-`CREATE TABLE departments (
+`Create table department with STRING data types
+CREATE TABLE departments (
 dept_no CHAR(5)
 , dept_name VARCHAR(50)
-, dept_location TINYTEXT(50)
+, dept_location TINYTEXT
 );`{{execute}}
 
