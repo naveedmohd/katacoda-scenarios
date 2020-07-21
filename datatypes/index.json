@@ -1,0 +1,59 @@
+{
+  "title": "Datatypes and its significance",
+  "description": "Datatypes and its significance",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating mysql database : HR",
+      "text": "step1-createdb.md",
+      "code": "createdb.sh"
+    },
+     {
+      "title": "Create Table Columns with STRING datatypes",
+      "text": "step2-createstringdatatypes.md"
+    },
+     {
+      "title": "Create Primary Key Constraints",
+      "text": "step3-createpk.md"
+    },
+     {
+      "title": "Create Foreign Key Constraints",
+      "text": "step4-createfk.md"
+    },
+     {
+      "title": "Review HR schema Objects",
+      "text": "step5-reviewschema.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
