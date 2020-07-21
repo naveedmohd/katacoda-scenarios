@@ -3,7 +3,7 @@
 
 Use HR database `use hr`{{execute}}
 
-`Create table employee with all available STRING data types 
+Create table employee with all available STRING data types ` 
 CREATE TABLE employees (
 emp_no CHAR(10)
 , first_name VARCHAR(50)
@@ -15,7 +15,7 @@ emp_no CHAR(10)
 , Employee_Location VARBINARY(255)
 );`{{execute}}
 
-`Create table department with STRING data types
+Create table department with STRING data types `
 CREATE TABLE departments (
 dept_no CHAR(5)
 , dept_name VARCHAR(50)
