@@ -1,0 +1,29 @@
+CREATE TABLE CUSTOMER(
+	Customer_ID     INT           
+	,First_Name     VARCHAR(50)   
+	,Last_Name      VARCHAR(50)  
+	,Street         VARCHAR(100)  
+	,City           VARCHAR(50)  
+	,Zip            VARCHAR(50) 
+	,Phone          VARCHAR(50)
+	);
+
+CREATE TABLE ORDERS (
+	Order_ID          INT            
+	,Customer_ID      INT            
+	,Customer_Name    VARCHAR(50)    
+	,Delivery_Street  VARCHAR(100)   
+	,Delivery_City    VARCHAR(50)    
+	,Delivery_State   VARCHAR(50)    
+	,Delivery_Zip     VARCHAR(50)    
+	,Shipping_Date    DATE 
+	);
+
+CREATE TABLE PRODUCT (
+	,Product_ID       INT            
+	,Quantity         INT            
+	,Product_Name     VARCHAR(50)    
+	,Product_Desc     VARCHAR(100)   
+	);
+
+

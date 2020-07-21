@@ -1,0 +1,55 @@
+{
+  "title": "Practice Database Concepts",
+  "description": "Practice Database Concepts",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating mysql database : Orders",
+      "text": "step1-createdb.md",
+      "code": "createdb.sh"
+    },
+     {
+      "title": "Practice - Creating Database Tables",
+      "text": "step2-createtables.md"
+    },
+     {
+      "title": "Create Primary Key on Tables",
+      "text": "step3-createprimarykey.md"
+    },
+     {
+      "title": "Create Table coluns with DATE datatypes",
+      "text": "step4-createdatedatatypes.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "mysqlschema.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
