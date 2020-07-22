@@ -3,8 +3,8 @@
 
 Use Orders database `use orders`{{execute}}
 
-Create table Customer with the following specification ` 
---------------------------------
+Create table Customer with the following specification 
+` 
 |column-name 	| data type 	|
 --------------------------------
 |Customer_ID	| INT		|
@@ -14,12 +14,11 @@ Create table Customer with the following specification `
 |City		| VARCHAR(50)	|
 |Zip		| VARCHAR(50)	|
 |Phone		| VARCHAR(50)	|
---------------------------------	
 `{{execute}}
 
 
-Create table Orders with the following specification ` 
---------------------------------
+Create table Orders with the following specification 
+` 
 |column-name 	| data type 	|
 --------------------------------
 |Order_ID	| INT		|
@@ -30,17 +29,15 @@ Create table Orders with the following specification `
 |Delivery_State	| VARCHAR(50)	|
 |Delivery_Zip	| VARCHAR(50)	|
 |Shipping_Date	| DATE		|
---------------------------------	
 `{{execute}}
 
 
-Create table Product with the following specification ` 
---------------------------------
+Create table Product with the following specification 
+` 
 |column-name 	| data type 	|
 --------------------------------
 |Product_ID	| INT		|
 |Quantity	| INT		|
 |Product_Name	| VARCHAR(50)	|
 |Product_Desc	| VARCHAR(100)	|
---------------------------------
 `{{execute}}
