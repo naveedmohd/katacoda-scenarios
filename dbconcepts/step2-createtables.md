@@ -15,7 +15,7 @@ Create table Customer with the following specification `
 |Zip		| VARCHAR(50)	|
 |Phone		| VARCHAR(50)	|
 --------------------------------	
-`{{copy}}
+`{{execute}}
 
 
 Create table Orders with the following specification ` 
@@ -31,7 +31,7 @@ Create table Orders with the following specification `
 |Delivery_Zip	| VARCHAR(50)	|
 |Shipping_Date	| DATE		|
 --------------------------------	
-`{{copy}}
+`{{execute}}
 
 
 Create table Product with the following specification ` 
@@ -43,4 +43,4 @@ Create table Product with the following specification `
 |Product_Name	| VARCHAR(50)	|
 |Product_Desc	| VARCHAR(100)	|
 --------------------------------
-`{{copy}}
+`{{execute}}
