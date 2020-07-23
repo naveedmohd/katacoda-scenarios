@@ -12,13 +12,11 @@
     },
      {
       "title": "Practice - Creating Database Tables",
-      "text": "step2-createtables.md",
-      "code": "step2-solution.sh"
+      "text": "step2-createtables.md"
     },
      {
       "title": "Create Primary Key on Tables",
-      "text": "step3-createprimarykey.md",
-      "code": "step3-solution.sh"
+      "text": "step3-createprimarykey.md"
     },
      {
       "title": "Create Table coluns with DATE datatypes",
