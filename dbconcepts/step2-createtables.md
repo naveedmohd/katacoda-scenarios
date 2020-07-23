@@ -4,17 +4,15 @@
 Use Orders database `use orders`{{execute}}
 
 Create table Customer with the following specification 
-` 
-|column-name 	| data type 	|
---------------------------------
-|Customer_ID	| INT		|
-|First_Name	| VARCHAR(50)	|
-|Last_Name	| VARCHAR(50)	|
-|Street		| VARCHAR(100)	|
-|City		| VARCHAR(50)	|
-|Zip		| VARCHAR(50)	|
-|Phone		| VARCHAR(50)	|
-`{{execute}}
+|column-name 	| data type 	|\n
+--------------------------------\n
+|Customer_ID	| INT		|\n
+|First_Name	| VARCHAR(50)	|\n
+|Last_Name	| VARCHAR(50)	|\n
+|Street		| VARCHAR(100)	|\n
+|City		| VARCHAR(50)	|\n
+|Zip		| VARCHAR(50)	|\n
+|Phone		| VARCHAR(50)	|\n
 
 
 Create table Orders with the following specification 
