@@ -12,11 +12,13 @@
     },
      {
       "title": "Practice - Creating Database Tables",
-      "text": "step2-createtables.md"
+      "text": "step2-createtables.md",
+      "code": "step2-solution.sh"
     },
      {
       "title": "Create Primary Key on Tables",
-      "text": "step3-createprimarykey.md"
+      "text": "step3-createprimarykey.md",
+      "code": "step3-solution.sh"
     },
      {
       "title": "Create Table coluns with DATE datatypes",
@@ -33,13 +35,17 @@
    "assets": {
       "client": [
         {
-          "file": "mysqlschema.sql",
+          "file": "orders.sql",
+          "target": "~/"
+        },
+        {
+          "file": "createpk.sql",
           "target": "~/"
         }
       ],
       "host01": [
         {
-          "file": "mysqlschema.sql",
+          "file": "orders.sql",
           "target": "/root"
         }
       ]
