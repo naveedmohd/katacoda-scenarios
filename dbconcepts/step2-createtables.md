@@ -8,12 +8,12 @@ Create table Customer with the following specification
 `"column-name| data type|"
 ------------------------|"
   "Customer_ID| INT|"
-  "First_Name| VARCHAR(50)|"
-  "Last_Name| VARCHAR(50)|"
-  "Street| VARCHAR(100)|"
-  "City| VARCHAR(50)|"
-  "Zip| VARCHAR(50)|"
-  "Phone| VARCHAR(50)|"
+  "First_Name | VARCHAR(50)|"
+  "Last_Name  | VARCHAR(50)|"
+  "Street     | VARCHAR(100)|"
+  "City       | VARCHAR(50)|"
+  "Zip        | VARCHAR(50)|"
+  "Phone      | VARCHAR(50)|"
 `
 
 Create table Orders with the following specification 
