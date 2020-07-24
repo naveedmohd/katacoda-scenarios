@@ -22,6 +22,7 @@ Create table Orders with the following specification
 ------------------------------------|"
   "Order_ID          | INT          |"
   "Customer_ID       | INT          |"
+  "Product_ID        | INT          |"
   "Customer_Name     | VARCHAR(50)  |"
   "Delivery_Street   | VARCHAR(100) |"
   "Delivery_City     | VARCHAR(50)  |"

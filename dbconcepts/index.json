@@ -19,8 +19,8 @@
       "text": "step3-createprimarykey.md"
     },
      {
-      "title": "Create Table coluns with DATE datatypes",
-      "text": "step4-createdatedatatypes.md"
+      "title": "Create Foreign Key on Tables",
+      "text": "step4-createforeignkey.md"
     }
     ],
     "intro": {
@@ -38,6 +38,10 @@
         },
         {
           "file": "createpk.sql",
+          "target": "~/"
+        },
+        {
+          "file": "createfk.sql",
           "target": "~/"
         }
       ],

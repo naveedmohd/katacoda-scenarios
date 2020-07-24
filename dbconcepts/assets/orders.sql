@@ -11,6 +11,7 @@ CREATE TABLE CUSTOMER(
 CREATE TABLE ORDERS (
 	Order_ID          INT            
 	,Customer_ID      INT            
+        ,Product_ID	  INT
 	,Customer_Name    VARCHAR(50)    
 	,Delivery_Street  VARCHAR(100)   
 	,Delivery_City    VARCHAR(50)    
@@ -20,7 +21,7 @@ CREATE TABLE ORDERS (
 	);
 
 CREATE TABLE PRODUCT (
-	,Product_ID       INT            
+	 Product_ID       INT            
 	,Quantity         INT            
 	,Product_Name     VARCHAR(50)    
 	,Product_Desc     VARCHAR(100)   
