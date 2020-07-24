@@ -21,6 +21,10 @@
      {
       "title": "Create Foreign Key on Tables",
       "text": "step4-createforeignkey.md"
+    },
+     {
+      "title": "Create Unique and Check Constraint on Tables",
+      "text": "step5-create_uk_ck.md"
     }
     ],
     "intro": {
@@ -42,6 +46,10 @@
         },
         {
           "file": "createfk.sql",
+          "target": "~/"
+        },
+        {
+          "file": "createukck.sql",
           "target": "~/"
         }
       ],

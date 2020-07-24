@@ -14,4 +14,6 @@ id=`docker ps --format "{{.ID}}"`
 
 `docker cp createfk.sql  $id:/`
 
+`docker cp createukck.sql  $id:/`
+
 docker exec -it mysql /bin/bash
