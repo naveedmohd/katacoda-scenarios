@@ -11,8 +11,8 @@
       "code": "launchpython.sh"
     },
      {
-      "title": "SUBSTR string function",
-      "text": "step2-substrfunction.md"
+      "title": "Declaring Variables in Python",
+      "text": "step2-declaring-variables.md"
     },
      {
       "title": "INSTR string function",
