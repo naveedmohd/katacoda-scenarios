@@ -19,6 +19,6 @@ Execute the below statements to declare variables and assign values
  Concatenate Strings using Join() `course_1="Python Programming"`{{execute}}
  `course_2="Java Programming"`{{execute}}
  `course_3="SQL Programming"`{{execute}}
- `print(Student has registered for the following courses : ', "".join([course_1, ', ', course_2,', ', course_3]))`{{execute}}
+ `print('Student has registered for the following courses : ', "".join([course_1, ', ', course_2,', ', course_3]))`{{execute}}
 
  `print("Student has registered for the following courses: ", course_1, ', ' , course_2,', ' , course_3)`{{execute}}

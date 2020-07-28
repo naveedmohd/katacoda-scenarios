@@ -11,8 +11,12 @@
       "code": "launchpython.sh"
     },
      {
-      "title": "Declaring Variables in Python",
+      "title": "Declaring Variables",
       "text": "step2-declaring-variables.md"
+    },
+     {
+      "title": "Assignment  Operators",
+      "text": "step3-assignment-operators.md"
     }
     ],
     "intro": {
