@@ -1,4 +1,4 @@
-Execute the below statements to to check variable assignement
+Execute the below statements to check variable assignement
 
  Assigning value to a variable `x=10`{{execute}}
  `print(x)`{{execute}}
