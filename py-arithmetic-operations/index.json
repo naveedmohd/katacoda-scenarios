@@ -13,18 +13,6 @@
      {
       "title": "Declaring Variables in Python",
       "text": "step2-declaring-variables.md"
-    },
-     {
-      "title": "INSTR string function",
-      "text": "step3-instrfunction.md"
-    },
-     {
-      "title": "CONCAT string function",
-      "text": "step4-concatfunction.md"
-    },
-     {
-      "title": "REPLACE-REVERSE string function",
-      "text": "step5-replace_reversefunction.md"
     }
     ],
     "intro": {
