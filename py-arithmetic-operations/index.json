@@ -27,8 +27,12 @@
       "text": "step5-logical-operators.md"
     },
      {
-      "title": "String Functions",
+      "title": "String Functions - Part1",
       "text": "step6-string-functions.md"
+    },
+     {
+      "title": "String Functions - Part2",
+      "text": "step7-string-functions-part2.md"
     }
     ],
     "intro": {
