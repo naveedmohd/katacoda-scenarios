@@ -21,6 +21,10 @@
      {
       "title": "Integer and Float Data Types",
       "text": "step4-int-float-types.md"
+    },
+     {
+      "title": "Logical Operators",
+      "text": "step5-logical-operators.md"
     }
     ],
     "intro": {
