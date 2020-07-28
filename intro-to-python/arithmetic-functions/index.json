@@ -1,0 +1,59 @@
+{
+  "title": "Python: Arithmetic Operations",
+  "description": "Python: Arithmetic Operations",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Perform Arithmetic Operations",
+      "text": "step1-arithmetic-operations.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "SUBSTR string function",
+      "text": "step2-substrfunction.md"
+    },
+     {
+      "title": "INSTR string function",
+      "text": "step3-instrfunction.md"
+    },
+     {
+      "title": "CONCAT string function",
+      "text": "step4-concatfunction.md"
+    },
+     {
+      "title": "REPLACE-REVERSE string function",
+      "text": "step5-replace_reversefunction.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+   "assets": {
+      "client": [
+        {
+          "file": "scott.sql",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "scott.sql",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
