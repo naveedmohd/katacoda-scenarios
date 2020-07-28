@@ -2,6 +2,8 @@ Execute the below statements to perform Arithmetic Operations
 
  `print(10 + 20 + 30)`{{execute}}
 
+print("\n")
+ 
  `print(60 - 10 + 20)`{{execute}}
 
  `print((10 * 5) + 20)`{{execute}}
