@@ -25,6 +25,10 @@
      {
       "title": "Logical Operators",
       "text": "step5-logical-operators.md"
+    },
+     {
+      "title": "String Functions",
+      "text": "step6-string-functions.md"
     }
     ],
     "intro": {
