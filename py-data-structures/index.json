@@ -1,0 +1,53 @@
+{
+  "title": "Python: Data Structures",
+  "description": "Python: Data Structures",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "LIST Operator",
+      "text": "step1-list-operator.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "LIST functions",
+      "text": "step2-list-functions.md"
+    },
+     {
+      "title": "Assignment  Operators",
+      "text": "step3-assignment-operators.md"
+    },
+     {
+      "title": "Integer and Float Data Types",
+      "text": "step4-int-float-types.md"
+    },
+     {
+      "title": "Logical Operators",
+      "text": "step5-logical-operators.md"
+    },
+     {
+      "title": "String Functions - Part1",
+      "text": "step6-string-functions.md"
+    },
+     {
+      "title": "String Functions - Part2",
+      "text": "step7-string-functions-part2.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
