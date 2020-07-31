@@ -1,25 +1,30 @@
-Execute the below statements to understand Strings and its functions.
+Execute the below statements to to work with Compound Data Structures
 
- Use type() function to identify datatype of variable `str='Python Programming'`{{execute}}
- `print(type(str))`{{execute}}
+ Create a compound /nested Organization dictionary element as follows: 
 
- Use count() function to find count of occurences `str="Python Programming"`{{execute}}
- `print(str.count('P'))`{{execute}}
+`Organizations = {
+		"Intel": {"HQ_Location" : "Santa Clara"
+			,"nasdaq_symbol" : "INTC"
+			,"year_founded" : 1968
+			,"industry" : "SemiConductors"
+			},
+              	"Microsoft": {"HQ_Location" : "Seattle"
+			,"nasdaq_symbol" : "MSFT"
+			,"year_founded" : 1975
+			,"industry" : "Software"
+			},
+		"Apple": {"HQ_Location" : "Cupertino"
+			,"nasdaq_symbol" : "AAPL"
+			,"year_founded" : 1976
+			,"industry" : "Consumer Electronics"
+			},			
+                 }`{{execute}}
+`print(Organizations)`{{execute}}
 
- Use format() function to format string `str="Today we are having our {}nd class for Python Programming"`{{execute}}
- `print(str.format(2))`{{execute}}
+You can access the dictionary element from Organizations as follows.
+`org_intel = Organizations["Intel"]`{{execute}}
+`print(org_intel)`{{execute}}
 
- `course_1="Python Programming"`{{execute}}
- `course_2="Java Programming"`{{execute}}
- Use format() function to format string `str="What are some of the differences between {} and {}?"`{{execute}}
- `print(str.format(course_1,course_2))`{{execute}}
-
- Use split() function. Default split is on white space. `course_name="Python Programming - An Introductory Course"`{{execute}}
- `print(course_name.split())`{{execute}}
-
- Using split() along with number of splits `course_name="Python Programming - An Introductory Course"`{{execute}}
- `print(course_name.split(' ',1))`{{execute}}
-
- Using split() function based on '-' `course_name="Python Programming - An Introductory Course"`{{execute}}
- `print(course_name.split(' ',2))`{{execute}}
-
+You can access the dictionary element's sub-element as follows.
+`ticker_symbol = Organizations["Intel"]["nasdaq_symbol"]`{{execute}}
+`print(ticker_symbol)`{{execute}}
