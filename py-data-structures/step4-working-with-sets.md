@@ -1,7 +1,7 @@
 Execute the below statements to understand creation of Sets and using its functions
 
  Create a SET called Weekdays as follows: `weekdays={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"}`{{execute}}
- `print(x)`{{execute}}
+ `print(weekdays)`{{execute}}
 
  Use method add() to add an element to the Set: `weekdays.add("End of the week")`{{execute}}
  `print(weekdays)`{{execute}}
