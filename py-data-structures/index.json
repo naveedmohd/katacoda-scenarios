@@ -15,24 +15,24 @@
       "text": "step2-list-functions.md"
     },
      {
-      "title": "Assignment  Operators",
-      "text": "step3-assignment-operators.md"
+      "title": "Working with Tuples",
+      "text": "step3-working-with-tuples.md"
     },
      {
-      "title": "Integer and Float Data Types",
-      "text": "step4-int-float-types.md"
+      "title": "Working with Sets",
+      "text": "step4-working-with-sets.md"
     },
      {
-      "title": "Logical Operators",
-      "text": "step5-logical-operators.md"
+      "title": "Set Operations on Multiple Sets",
+      "text": "step4-working-with-sets-part2.md"
     },
      {
-      "title": "String Functions - Part1",
-      "text": "step6-string-functions.md"
+      "title": "Working with Dictionaries",
+      "text": "step5-working-with-dictionaries.md"
     },
      {
-      "title": "String Functions - Part2",
-      "text": "step7-string-functions-part2.md"
+      "title": "Working with Compound Data Structures",
+      "text": "step6-compound-data-structures.md"
     }
     ],
     "intro": {

@@ -12,7 +12,7 @@ Create a list of weekdays `weekdays=["Monday","Tuesday","Wednesday","Thursday","
 
  To check if an element is in the list, use "in" `print("Friday" in weekdays)`{{execute}}
 
- To check if an element is not in the list, use "not in" `print("Fridays" in weekdays)`{{execute}}
+ To check if an element is not in the list, use "not in" `print("Fridays" not in weekdays)`{{execute}}
 
 Replace an element in the list at a designated position `weekdays[0]="Beginning of the week"`{{execute}}
 `print(weekdays)`{{execute}}
