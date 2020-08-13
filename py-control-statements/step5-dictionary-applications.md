@@ -1,28 +1,28 @@
-Execute the below statements understand For Loops.
+Creating a word counter in Dictionary.
 
 `
-weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-for weekday in weekdays:
-    print('Days of week are: ', weekday)
+course_list=["Python","Program","Java","Program","Database","Program"]
+course_dict={}
+for course in course_list:
+    if ( course not in course_dict ):
+       course_dict[course] = 1
+    else:
+       course_dict[course] += 1
+    print(course_dict)
 `{{execute}}
 
-`
-for i in [0,1,2,3,4,5]:
-    print(' Value of i is :', i)
-`{{execute}}
+Creating word counter in Dictionary using dictionary get() method
 
 `
-weekdays=(("Monday","01")
-,("Tuesday","02")
-,("Wednesday","03")
-,("Thursday","04")
-,("Friday","05")
-,("Saturday","06")
-,("Sunday","07")
-)
-for weekday in weekdays:
-    print('Days of week are: ', weekday)
+course_list=["Python","Program","Java","Program","Database","Program"]
+course_dict={}
+for course in course_list:
+    course_dict[course] = course_dict.get(course,0)+1
+    print(course_dict)
 `{{execute}}
+
+
+Iterating dictionary to get keys() and values()
 
 `
 my_dict = {
@@ -59,9 +59,3 @@ for (key, value) in my_dict.items():
     print('Dictionary item is: ', new_student_dict)
 `{{execute}}
 
-
-`
-course_name="Python"
-for element in course_name[::-1]:
-    print(element)
-`{{execute}}
