@@ -1,0 +1,57 @@
+{
+  "title": "Python: Control Statements",
+  "description": "Python: Control Statements",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "if-elif-else statements",
+      "text": "step1-if-elif-else.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "LIST functions",
+      "text": "step2-list-functions.md"
+    },
+     {
+      "title": "Working with Tuples",
+      "text": "step3-working-with-tuples.md"
+    },
+     {
+      "title": "Working with Sets",
+      "text": "step4-working-with-sets.md"
+    },
+     {
+      "title": "Set Operations on Multiple Sets",
+      "text": "step4-working-with-sets-part2.md"
+    },
+     {
+      "title": "Working with Dictionaries",
+      "text": "step5-working-with-dictionaries.md"
+    },
+     {
+      "title": "Working with Compound Data Structures",
+      "text": "step6-compound-data-structures.md"
+    },
+     {
+      "title": "Working with Compound Data Structures-Part2",
+      "text": "step6-compound-data-structures-part2.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
