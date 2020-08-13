@@ -1,6 +1,7 @@
 Execute the below statements where if-elif-else conditional statements are used.
 
- If an expression is True, print result: 
+ If an expression is True|False, then the subsequent statements are executed. 
+
 `
 if (True):
     x=10
@@ -56,12 +57,10 @@ else:
 `{{execute}}
 
 `
-if(True): x=10; x+=10; x*=10; x/=10; x//=10:
-    print(x)
+if(True): x=10; x+=10; x*=10; x/=10; x//=10;print(x)
 `{{execute}}
 
 `
-if(10>5 and 1!=0): x=10; x+=10; x*=10; x/=10; x//=10:
-    print(x)
+if(10>5 and 1!=0): x=10; x+=10; x*=10; x/=10; x//=10;print(x)
 `{{execute}}
 
