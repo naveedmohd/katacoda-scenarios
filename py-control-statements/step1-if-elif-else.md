@@ -5,6 +5,7 @@ Execute the below statements where if-elif-else conditional statements are used.
 if (True):
     x=10
     print(x)
+
 `{{execute}}
 
  Get second element from list `print(weekdays[1])`{{execute}}
