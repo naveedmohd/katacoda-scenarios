@@ -1,9 +1,10 @@
 Execute the below statements where if-elif-else conditional statements are used.
 
- If <expr> is True, print result: `
+ If an expression is True, print result: 
+`
 if (True):
     x=10
-print(x)
+    print(x)
 `{{execute}}
 
  Get second element from list `print(weekdays[1])`{{execute}}
