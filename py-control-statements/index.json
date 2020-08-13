@@ -11,8 +11,8 @@
       "code": "launchpython.sh"
     },
      {
-      "title": "LIST functions",
-      "text": "step2-list-functions.md"
+      "title": "Boolean Expression Evaluation",
+      "text": "step2-boolean-evaluation.md"
     },
      {
       "title": "Working with Tuples",
