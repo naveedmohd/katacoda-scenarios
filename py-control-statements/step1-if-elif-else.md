@@ -5,19 +5,63 @@ Execute the below statements where if-elif-else conditional statements are used.
 if (True):
     x=10
     print(x)
-
 `{{execute}}
 
- Get second element from list `print(weekdays[1])`{{execute}}
+`
+if(5>3 and 2<10):
+    print(True)
+`{{execute}}
 
- Get last element from list `print(weekdays[len(weekdays)-1])`{{execute}}
+`
+if( (len('Python')==6) or (len('Java')==5) ):
+    print('This is Python Programming Class')
+`{{execute}}
 
- Get list elements using range of index elements `print(weekdays[1:4])`{{execute}}
+`
+if(True or False):
+    print(True)
+`{{execute}}
 
- To check if an element is in the list, use "in" `print("Friday" in weekdays)`{{execute}}
+`
+if(True):
+    x1,y1=2,5
+    x2,y2=3,2
+    m=(y2-y1)/(x2-x1)
+    print('Slope is : ', m)
+`{{execute}}
 
- To check if an element is not in the list, use "not in" `print("Fridays" not in weekdays)`{{execute}}
+`
+if( (len('Python')==6) and (len('Java')==5) ):
+    print('This is Python Programming Class')
+elif(len('Python')==6):
+    print('This is Python Class')
+`{{execute}}
 
-Replace an element in the list at a designated position `weekdays[0]="Beginning of the week"`{{execute}}
-`print(weekdays)`{{execute}}
+`
+if( True and False ):
+    print(False)
+elif(True or False):
+    print(True)
+`{{execute}}
+
+`
+if( True and False ):
+    print(False)
+elif(False and False):
+    print(False)
+elif(False and True):
+    print(False)
+else:
+    print(True)
+`{{execute}}
+
+`
+if(True): x=10; x+=10; x*=10; x/=10; x//=10:
+    print(x)
+`{{execute}}
+
+`
+if(10>5 and 1!=0): x=10; x+=10; x*=10; x/=10; x//=10:
+    print(x)
+`{{execute}}
 
