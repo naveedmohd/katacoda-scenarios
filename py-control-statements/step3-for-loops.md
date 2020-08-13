@@ -1,7 +1,5 @@
 Execute the below statements understand For Loops.
 
- If an expression is True|False, then the subsequent statements are executed. 
-
 `
 weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 for weekday in weekdays:
@@ -62,3 +60,8 @@ for (key, value) in my_dict.items():
 `{{execute}}
 
 
+`
+course_name="Python"
+for element in course_name[::-1]:
+    print(element)
+`{{execute}}
