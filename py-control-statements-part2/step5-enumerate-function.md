@@ -2,7 +2,7 @@ Below is an example of using enumerate() function on LIST.
 
 `
 course_names=["Python Programming","Java Programming","Machine Learning","Artificial Intelligence"]
-for i , course in enumerate(course_desc):
+for i , course in enumerate(course_names):
     print('Course Index is:', i, ' , Course Name is: ' , course)
 `{{execute}}
 

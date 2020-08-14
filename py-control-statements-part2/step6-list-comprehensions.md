@@ -28,7 +28,7 @@ Below is an example of using conditional if statement in list comprehensions.
 
 `
 org_names=["Intel","Facebook","Google","Twitter","Apple"]
-org_name=[org.title() for org in org_names if org.title()=='Intel'
+org_name=[org.title() for org in org_names if org.title()=='Intel']
 `{{execute}}
 
 `
