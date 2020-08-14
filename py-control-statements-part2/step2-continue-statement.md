@@ -18,7 +18,7 @@ for i in range(len(num_scores)):
     print('sum_score is :',sum_scores)
     if(sum_scores >= 100):
         print(sum_scores , ' is greater than 100 :', ' Continuing to skip this iteration for: ', num_scores[i])
-	continue
+        continue
     else:
         sum_scores+=num_scores[i]
         print('sum_score in else block is:',sum_scores)

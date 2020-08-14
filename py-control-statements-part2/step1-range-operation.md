@@ -25,13 +25,13 @@ Using range() function for iteration of LIST
 `
 weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 for i in range(len(weekdays)):
-    print(i ' is the day number associated for a day.')
+    print(i , ' is the day number associated for a day.')
 `{{execute}}
 
 `
 weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 for i in range(len(weekdays)):
-    print(weekdays[i] ' is a day in a week.')
+    print(weekdays[i] , ' is a day in a week.')
 `{{execute}}
 
 
@@ -48,7 +48,7 @@ weekdays=(
 ,("Sunday","07") 
 )
 for i in range(len(weekdays)):
-    print(weekdays[i] ' is the day within a week.')
+    print(weekdays[i], ' is the day within a week.')
 `{{execute}}
 
 Iterating over a Set
@@ -56,6 +56,6 @@ Iterating over a Set
 `
 weekdays={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"}
 for i in weekdays:
-    print(i ' is a day in a week.')
+    print(i , ' is a day in a week.')
 `{{execute}}
 
