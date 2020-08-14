@@ -1,67 +1,26 @@
-Execute the below statements understand For Loops.
+Following are the examples of using break statement within a loop.
 
 `
-weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-for weekday in weekdays:
-    print('Days of week are: ', weekday)
+num_list=[1,2,3,4,5,6,7,8,9,10]
+for i in num_list:
+    if(i==5):
+        break
+    else:
+        print(i)
 `{{execute}}
+
+Example of computing total score from the list using continue statement
 
 `
-for i in [0,1,2,3,4,5]:
-    print(' Value of i is :', i)
+num_scores=[10,20,30,45,50,60,70,80,90,100]
+sum_scores=0
+for i in range(len(num_scores)):
+    print('sum_score is :',sum_scores)
+    if(sum_scores >= 100):
+        print(sum_scores , ' is greater than 100 :', ' Continuing to skip this iteration for: ', num_scores[i])
+        break
+    else:
+        sum_scores+=num_scores[i]
+        print('sum_score in else block is:',sum_scores)
 `{{execute}}
 
-`
-weekdays=(("Monday","01")
-,("Tuesday","02")
-,("Wednesday","03")
-,("Thursday","04")
-,("Friday","05")
-,("Saturday","06")
-,("Sunday","07")
-)
-for weekday in weekdays:
-    print('Days of week are: ', weekday)
-`{{execute}}
-
-`
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-for key in my_dict:
-    print('Dictionary Key is: ', key, ' its value is :', my_dict[key])
-`{{execute}}
-
-`
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-for item in my_dict.items():
-    print('Dictionary item is: ', item)
-`{{execute}}
-
-`
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-new_student_dict={}
-for (key, value) in my_dict.items():
-    new_student_dict[key]=value
-    print('Dictionary item is: ', new_student_dict)
-`{{execute}}
-
-
-`
-course_name="Python"
-for element in course_name[::-1]:
-    print(element)
-`{{execute}}

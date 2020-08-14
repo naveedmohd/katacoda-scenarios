@@ -1,63 +1,34 @@
-Execute the below statements understand While Loops.
-
-While Loops when working with LISTS.
+Below is an example of using zip() function on LIST where multiple LISTs are packed together.
 
 `
-weekdays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-temp_list=[]
-new_list=[]
-i=0
-while( i < len(weekdays) ):
-    temp_list = weekdays[i]
-    new_list.append(temp_list)
-    i+=1
-    print(new_list)
+course_list=["Python Programming","Java Programming","Machine Learning","Artificial Intelligence"]
+course_code=["PY-101","JA-101","ML-101","AI-101"]
+course_list=list(zip(course_code,course_desc))
+print(course_list)
 `{{execute}}
 
-While Loops when working with Tuples 
-
+After using zip() above to pack the LIST, the packed LIST can then be converted to other datastructure types.
 
 `
-weekdays=(
-("Monday","01")
-,("Tuesday","02")
-,("Wednesday","03")
-,("Thursday","04")
-,("Friday","05")
-,("Saturday","06")
-,("Sunday","07")
-)
-while ( i < len(weekdays) ):
-    temp_tuple=weekdays[i]
-    new_tuple+=temp_tuple
-    i+=1
-    print(new_tuple)
+print(tuple(course_list))
 `{{execute}}
 
-While Loops when working with Dictionaries
+Converting packed list to a SET
 
 `
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-i=0
-keys=my_dict.keys()
-while ( i < len(keys) ):
-    print(keys[i]," -> ",my_dict[keys[i]])
-    i+=1
+print(set(course_list))
 `{{execute}}
 
-While loop when working with Strings
+Converting packed list to a dictionary
 
 `
-course_name="Python"
-reverse_name=''
-i=len(course_name)
-while ( i > 0 ):
-    reverse_name += course_name[i-1] 
-    i-=1
-    print('Reversed Name is : ' , reverse_name)
+print(dict(course_list))
 `{{execute}}
+
+zip() function is used below to unpack a LIST into individual lists.
+
+`
+course_id,course_details = zip(*course_list)
+print('Course ID is : ' course_id ' , ' Course name is : ' , course_details)
+`{{execute}}
+
