@@ -25,6 +25,10 @@
      {
       "title": "Dictionary Applications",
       "text": "step5-dictionary-applications.md"
+    },
+     {
+      "title": "Convert Sets, Lists to Dictionary",
+      "text": "step6-set-list-to-dict.md"
     }
     ],
     "intro": {
