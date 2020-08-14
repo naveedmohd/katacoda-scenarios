@@ -29,7 +29,7 @@ zip() function is used below to unpack a LIST into individual lists.
 
 `
 course_id,course_name = zip(*course_desc)
-print('Course ID is : ' course_id) 
+print('Course ID is : ', course_id) 
 print('Course name is : ' , course_name)
 `{{execute}}
 

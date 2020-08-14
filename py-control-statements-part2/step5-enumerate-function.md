@@ -1,61 +1,31 @@
-Creating a word counter in Dictionary.
+Below is an example of using enumerate() function on LIST.
 
 `
-course_list=["Python","Program","Java","Program","Database","Program"]
-course_dict={}
-for course in course_list:
-    if ( course not in course_dict ):
-       course_dict[course] = 1
-    else:
-       course_dict[course] += 1
-    print(course_dict)
+course_names=["Python Programming","Java Programming","Machine Learning","Artificial Intelligence"]
+for i , course in enumerate(course_desc):
+    print('Course Index is:', i, ' , Course Name is: ' , course)
 `{{execute}}
 
-Creating word counter in Dictionary using dictionary get() method
+We can combine using both zip() and enumerate() as below.
 
 `
-course_list=["Python","Program","Java","Program","Database","Program"]
-course_dict={}
-for course in course_list:
-    course_dict[course] = course_dict.get(course,0)+1
-    print(course_dict)
-`{{execute}}
-
-
-Iterating dictionary to get keys() and values()
-
-`
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-for key in my_dict:
-    print('Dictionary Key is: ', key, ' its value is :', my_dict[key])
+org_name=["Intel","Facebook","Google","Twitter","Apple"]
+org_loc=["Santa Clara","Menlo Park","Mountain View","San Francisco","Cupertino"]
+org_url=["www.intel.com","www.facebook.com","www.google.com","www.twitter.com","www.apple.com"]
+organizations = []
+for org in zip(org_name, org_loc, org_url):
+    organizations.append("{}: {}, {}".format(*org))
 `{{execute}}
 
 `
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-for item in my_dict.items():
-    print('Dictionary item is: ', item)
+print(organizations)
 `{{execute}}
 
+Using enumerate() over the result of packed LIST below.
+
 `
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-new_student_dict={}
-for (key, value) in my_dict.items():
-    new_student_dict[key]=value
-    print('Dictionary item is: ', new_student_dict)
+for i, org in enumerate(organizations):
+    print('Index is :', i , ' Org Details are :' , org)
 `{{execute}}
+
 
