@@ -1,0 +1,49 @@
+{
+  "title": "Python: Control Statements-Part2",
+  "description": "Python: Control Statements-Part2",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "range operation in loops",
+      "text": "step1-range-operation.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "continue statement in a loop",
+      "text": "step2-continue-statement.md"
+    },
+     {
+      "title": "break statement in a loop",
+      "text": "step3-break-statement.md"
+    },
+     {
+      "title": "working with zip function",
+      "text": "step4-zip-function.md"
+    },
+     {
+      "title": "working with enumerate function",
+      "text": "step5-enumerate-function.md"
+    },
+    {
+      "title": "working with list comprehensions",
+      "text": "step6-list-comprehensions.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
