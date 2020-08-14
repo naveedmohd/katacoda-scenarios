@@ -1,61 +1,36 @@
-Creating a word counter in Dictionary.
+Below is an example of iterating over a list with for loop.
 
 `
-course_list=["Python","Program","Java","Program","Database","Program"]
-course_dict={}
-for course in course_list:
-    if ( course not in course_dict ):
-       course_dict[course] = 1
-    else:
-       course_dict[course] += 1
-    print(course_dict)
-`{{execute}}
-
-Creating word counter in Dictionary using dictionary get() method
-
-`
-course_list=["Python","Program","Java","Program","Database","Program"]
-course_dict={}
-for course in course_list:
-    course_dict[course] = course_dict.get(course,0)+1
-    print(course_dict)
-`{{execute}}
-
-
-Iterating dictionary to get keys() and values()
-
-`
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-for key in my_dict:
-    print('Dictionary Key is: ', key, ' its value is :', my_dict[key])
+org_names=["Intel","Facebook","Google","Twitter","Apple"]
+all_orgs=[]
+for org in org_names:
+    all_orgs.append(org.title())
 `{{execute}}
 
 `
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-for item in my_dict.items():
-    print('Dictionary item is: ', item)
+print('All Organizations : ' , all_orgs)
+`{{execute}}
+
+
+Below is an example of using consise for loop when creating list comprehensions
+
+`
+org_names=["Intel","Facebook","Google","Twitter","Apple"]
+all_orgs=[]
+all_orgs=[org.title() for org in org_names]
 `{{execute}}
 
 `
-my_dict = {
-"student_id" : 1000
-,"course_registered" : "Python Programming"
-,"credit_points" : 4.0
-,"is_course_online" : True
-}
-new_student_dict={}
-for (key, value) in my_dict.items():
-    new_student_dict[key]=value
-    print('Dictionary item is: ', new_student_dict)
+print(all_orgs)
 `{{execute}}
 
+Below is an example of using conditional if statement in list comprehensions.
+
+`
+org_names=["Intel","Facebook","Google","Twitter","Apple"]
+org_name=[org.title() for org in org_names if org.title()=='Intel'
+`{{execute}}
+
+`
+print(org_name)
+`{{execute}}
