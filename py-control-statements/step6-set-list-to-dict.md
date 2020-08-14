@@ -4,6 +4,7 @@ Below examples are shown how to convert from Set->Dictionary
 key_set={"INTC","TWTR","FB","ORCL"}
 value_set={"Intel","Twitter","Facebook","Oracle"}
 org_dict={}
+
 for key in key_set:
     for value in value_set:
         if( (key=="INTC") and (value=="Intel")):
@@ -22,6 +23,7 @@ print(org_dict)
 
 Below examples are shown how to convert from List->Dictionary
 
+
 `
 key_list=["INTC","TWTR","FB","ORCL"]
 value_list=["Intel","Twitter","Facebook","Oracle"]
@@ -36,7 +38,7 @@ for key in key_list:
         elif( (key=="FB") and (value=="Facebook") ):
              org_dict[key]=value
         elif( (key=="ORCL") and (value=="Oracle") ):
-             org_dict[key]=value
+             org_dict[key]=value 
 `{{execute}}
 
 `
