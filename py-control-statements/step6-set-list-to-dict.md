@@ -13,7 +13,10 @@ for key in key_set:
         elif( (key=="FB") and (value=="Facebook") ):
              org_dict[key]=value
         elif( (key=="ORCL") and (value=="Oracle") ):
-             org_dict[key]=value print(org_dict)
+             org_dict[key]=value 
+`{{execute}}
+
+`
 print(org_dict)
 `{{execute}}
 
@@ -33,7 +36,9 @@ for key in key_list:
         elif( (key=="FB") and (value=="Facebook") ):
              org_dict[key]=value
         elif( (key=="ORCL") and (value=="Oracle") ):
-             org_dict[key]=value print(org_dict)
-print(org_dict)
+             org_dict[key]=value
 `{{execute}}
 
+`
+print(org_dict)
+`{{execute}}
