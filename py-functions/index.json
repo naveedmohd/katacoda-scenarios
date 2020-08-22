@@ -6,13 +6,13 @@
   "details": {
     "steps": [
      {
-      "title": "Creating Python Function",
+      "title": "Greetings Function",
       "text": "step1-greet-function.md",
       "code": "launchpython.sh"
     },
      {
-      "title": "Boolean Expression Evaluation",
-      "text": "step2-boolean-evaluation.md"
+      "title": "SurfaceArea and Volume Function",
+      "text": "step2-cylinder-function.md"
     },
      {
       "title": "For Loops",
