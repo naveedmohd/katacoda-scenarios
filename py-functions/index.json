@@ -19,16 +19,8 @@
       "text": "step3-volume-of-cylinder.md"
     },
      {
-      "title": "While Loops",
-      "text": "step4-while-loops.md"
-    },
-     {
-      "title": "Dictionary Applications",
-      "text": "step5-dictionary-applications.md"
-    },
-     {
-      "title": "Convert Sets, Lists to Dictionary",
-      "text": "step6-set-list-to-dict.md"
+      "title": "Function: Counting Elements in LIST",
+      "text": "step4-count-elements-in-list.md"
     }
     ],
     "intro": {
