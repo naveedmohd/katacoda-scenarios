@@ -3,14 +3,11 @@ Execute the below statement to create a function.
 `
 def greetings(name):
     print("Hello: ", name)
-
-name=input("Please enter your name:")
-greetings(name)
 `{{execute}}
 
 `
-if(5>3 and 2<10):
-    print(True)
+name=input("Please enter your name:")
+greetings(name)
 `{{execute}}
 
 `
