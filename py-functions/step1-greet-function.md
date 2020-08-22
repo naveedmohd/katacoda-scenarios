@@ -7,12 +7,10 @@ def greetings(name):
 
 `
 name=input("Please enter your name:")
-greetings(name)
 `{{execute}}
 
 `
-if( (len('Python')==6) or (len('Java')==5) ):
-    print('This is Python Programming Class')
+greetings(name)
 `{{execute}}
 
 `
