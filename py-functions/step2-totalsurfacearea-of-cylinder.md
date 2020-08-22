@@ -1,4 +1,4 @@
-Execute the below statement to create and execution function for cylinder.
+Function for calculating TotalSurfaceArea of cylinder.
 
 `
 import math

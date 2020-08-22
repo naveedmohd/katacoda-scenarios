@@ -6,17 +6,17 @@
   "details": {
     "steps": [
      {
-      "title": "Greetings Function",
+      "title": "Function: Greetings",
       "text": "step1-greet-function.md",
       "code": "launchpython.sh"
     },
      {
-      "title": "SurfaceArea and Volume Function",
-      "text": "step2-cylinder-function.md"
+      "title": "Function: SurfaceArea of Cylinder",
+      "text": "step2-totalsurfacearea-of-cylinder.md"
     },
      {
-      "title": "For Loops",
-      "text": "step3-for-loops.md"
+      "title": "Function: Volume of Cylinder",
+      "text": "step3-volume-of-cylinder.md"
     },
      {
       "title": "While Loops",

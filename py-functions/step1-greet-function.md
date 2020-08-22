@@ -1,4 +1,4 @@
-Execute the below statement to create a function.
+Function to greet a person by a name.
 
 `
 def greetings(name):
