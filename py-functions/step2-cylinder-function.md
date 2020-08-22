@@ -13,6 +13,9 @@ def getTotalSA(radius,height):
 
 `
 radius=input("Please enter radius of cylinder:")
+`{{execute}}
+
+`
 height=input("Please enter height of cylinder:")
 `{{execute}}
 
