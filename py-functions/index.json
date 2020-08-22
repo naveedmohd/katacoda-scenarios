@@ -1,0 +1,49 @@
+{
+  "title": "Python: Functions",
+  "description": "Python: Functions",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Creating Python Function",
+      "text": "step1-greet-function.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "Boolean Expression Evaluation",
+      "text": "step2-boolean-evaluation.md"
+    },
+     {
+      "title": "For Loops",
+      "text": "step3-for-loops.md"
+    },
+     {
+      "title": "While Loops",
+      "text": "step4-while-loops.md"
+    },
+     {
+      "title": "Dictionary Applications",
+      "text": "step5-dictionary-applications.md"
+    },
+     {
+      "title": "Convert Sets, Lists to Dictionary",
+      "text": "step6-set-list-to-dict.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
