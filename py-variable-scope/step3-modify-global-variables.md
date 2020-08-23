@@ -23,7 +23,7 @@ num3=input("Please enter third number:")
 `{{execute}}
 
 `
-printSum(num1,num2,num3)
+printSum(num1,num2,num3,total)
 `{{execute}}
 
 `
