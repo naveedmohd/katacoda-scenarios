@@ -13,7 +13,7 @@ def calculateListSum(listElements,total):
     '''
     for i ,element in enumerate(listElements):
         total += element
-        return('Sum of all the elements from LIST is: ' , total)
+    return total
 `{{execute}}
 
 `
@@ -25,5 +25,5 @@ total=calculateListSum(listElements,total)
 `{{execute}}
 
 `
-print(total)
+print('Sum of all elements in list is :' , total)
 `{{execute}}
