@@ -21,7 +21,7 @@ listElements=input("Please enter the LIST of elements:")
 `{{execute}}
 
 `
-calculateListSum(listElements,total)
+total=calculateListSum(listElements,total)
 `{{execute}}
 
 `
