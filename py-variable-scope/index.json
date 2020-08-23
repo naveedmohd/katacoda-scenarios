@@ -1,0 +1,41 @@
+{
+  "title": "Python: Scope Of Variables",
+  "description": "Python: Scope of Variables",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Function: Local Variables",
+      "text": "step1-local-variables.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "Function: Global Variables",
+      "text": "step2-global-variables.md"
+    },
+     {
+      "title": "Function: Modifying Global Variables",
+      "text": "step3-modify-global-variables.md"
+    },
+     {
+      "title": "Function: Counting Elements in LIST",
+      "text": "step4-count-elements-in-list.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
