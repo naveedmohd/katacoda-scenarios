@@ -12,17 +12,17 @@
     },
      {
       "title": "Function: Global Variables",
-      "text": "step2-global-variables.md"
+      "text": "step2-global-variables.md",
       "code": "clearScreen.sh"
     },
      {
       "title": "Function: Modifying Global Variables",
-      "text": "step3-modify-global-variables.md"
+      "text": "step3-modify-global-variables.md",
       "code": "clearScreen.sh"
     },
      {
       "title": "Function: Calculate sum from integer list",
-      "text": "step4-sum-integer-list.md"
+      "text": "step4-sum-integer-list.md",
       "code": "clearScreen.sh"
     }
     ],
