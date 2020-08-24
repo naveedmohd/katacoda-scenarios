@@ -1,11 +1,14 @@
 Lambda Expression increment values in a List.
 
 `
+inputList=[1,2,3,4,5]
+`{{execute}}
+
+`
 updateList = list(map(lambda x: x+1, inputList))
 `{{execute}}
 
 `
-inputList=[1,2,3,4,5]
 listResult = updateList(inputList)
 `{{execute}}
 
