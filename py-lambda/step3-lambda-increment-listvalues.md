@@ -5,14 +5,10 @@ inputList=[1,2,3,4,5]
 `{{execute}}
 
 `
-updateList = list(map(lambda x: x+1, inputList))
+updatedList = list(map(lambda x: x+1, inputList))
 `{{execute}}
 
 `
-listResult = updateList(inputList)
-`{{execute}}
-
-`
-print("Updated List Result is : ", listResult)
+print("Updated List Result is : ", updatedList) 
 `{{execute}}
 
