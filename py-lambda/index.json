@@ -1,0 +1,39 @@
+{
+  "title": "Python: Lambda Expressions",
+  "description": "Python: Lambda Expressions",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Lambda: Compute Cylinder Volume",
+      "text": "step1-lambda-cylinder-volume.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "Lambda: Compute SufaceArea of Cylinder",
+      "text": "step2-lambda-surfaceArea.md",
+      "code": "clearScreen.sh"
+    },
+     {
+      "title": "Lambda: Increment values in a List",
+      "text": "step3-lambda-increment-listvalues.md",
+      "code": "clearScreen.sh"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
