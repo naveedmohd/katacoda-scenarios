@@ -22,9 +22,3 @@ python volume-surface-area.py
 
 Navigate to Python prompt to import volume-surface-area for computation
 `
-python
-`{{execute}}
-
-`
-import volume-surface-area
-`{{execute}}
