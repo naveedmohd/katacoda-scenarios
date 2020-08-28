@@ -28,4 +28,4 @@ print(getTotalElements(listElements))
 
 total=calculateListSum(listElements,total)
 
-print('Sum of elements in list: " , total)
+print("Sum of elements in list: " , total)

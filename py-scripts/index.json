@@ -17,7 +17,7 @@
      {
       "title": "Script: Operate on List Elements",
       "text": "step3-script-list-elements.md",
-      "code": "clearScreen.sh"
+      "code": "clearScreen1.sh"
     }
     ],
     "intro": {
