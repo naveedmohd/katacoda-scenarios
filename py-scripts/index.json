@@ -1,0 +1,46 @@
+{
+  "title": "Python: Create and Run scripts",
+  "description": "Python: Create and Run scripts",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Script: Hello World",
+      "text": "step1-script-hello-world.md"
+    },
+     {
+      "title": "Lambda: Compute SufaceArea of Cylinder",
+      "text": "step2-lambda-surfaceArea.md",
+      "code": "clearScreen.sh"
+    },
+     {
+      "title": "Lambda: Increment values in a List",
+      "text": "step3-lambda-increment-listvalues.md",
+      "code": "clearScreen.sh"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "helloworld.py",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
