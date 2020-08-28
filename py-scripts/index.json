@@ -10,8 +10,8 @@
       "text": "step1-script-hello-world.md"
     },
      {
-      "title": "Lambda: Compute SufaceArea of Cylinder",
-      "text": "step2-lambda-surfaceArea.md",
+      "title": "Script: Compute Volume and SurfaceArea of Cylinder",
+      "text": "step2-script-volume-SA-of-cylinder.md",
       "code": "clearScreen.sh"
     },
      {
@@ -30,7 +30,7 @@
     "assets": {
       "client": [
         {
-          "file": "helloworld.py",
+          "file": "*.py",
           "target": "~/"
         }
       ]

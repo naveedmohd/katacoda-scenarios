@@ -1,1 +1,1 @@
-cp helloworld.py .
+python
