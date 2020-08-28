@@ -15,8 +15,8 @@
       "code": "clearScreen.sh"
     },
      {
-      "title": "Lambda: Increment values in a List",
-      "text": "step3-lambda-increment-listvalues.md",
+      "title": "Script: Operate on List Elements",
+      "text": "step3-script-list-elements.md",
       "code": "clearScreen.sh"
     }
     ],
