@@ -1,0 +1,46 @@
+{
+  "title": "Python: Create and Run scripts with user input.",
+  "description": "Python: Create and Run scripts with user input.",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Script: Hello World",
+      "text": "step1-script-hello-world.md"
+    },
+     {
+      "title": "Script: Compute Volume and SurfaceArea of Cylinder",
+      "text": "step2-script-volume-SA-of-cylinder.md",
+      "code": "clearScreen.sh"
+    },
+     {
+      "title": "Script: Operate on List Elements",
+      "text": "step3-script-list-elements.md",
+      "code": "clearScreen1.sh"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*.py",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
