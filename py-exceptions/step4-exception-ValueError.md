@@ -18,7 +18,9 @@ View the contents of the scripts file.
 cat volume-surface-area3.py
 `{{execute}}
 
-Run the script volume-surface-area.py using the below command.
+Try to enter characters for radius and height. User is again prompted to enter valid Integer values.
+
+Run the script below to check how ValueError is handled.
 
 `
 python volume-surface-area3.py

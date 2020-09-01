@@ -18,7 +18,10 @@ View the contents of the scripts file.
 cat volume-surface-area3.py
 `{{execute}}
 
-Run the script volume-surface-area.py using the below command.
+
+Try to enter 0 for radius and positive integer value for height. 
+
+Run the script below to check how ZeroDivisionError is handled.
 
 `
 python volume-surface-area3.py

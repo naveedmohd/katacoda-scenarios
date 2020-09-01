@@ -18,17 +18,17 @@
      {
       "title": "Exception Handling: using-try-except-finally",
       "text": "step3-exception-using-try-except-finally.md",
-      "code": "clearScreen.sh"
+      "code": "clearScreen1.sh"
     },
      {
       "title": "Exception Handling: ValueError",
       "text": "step4-exception-ValueError.md",
-      "code": "clearScreen.sh"
+      "code": "clearScreen1.sh"
     },
      {
       "title": "Exception Handling: ZeroDivisionError",
       "text": "step5-exception-ZeroDivisionError.md",
-      "code": "clearScreen.sh"
+      "code": "clearScreen1.sh"
     }
     ],
     "intro": {
