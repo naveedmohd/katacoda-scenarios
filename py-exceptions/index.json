@@ -11,14 +11,24 @@
       "code": "launchpython.sh"
     },
      {
-      "title": "Script: Compute Volume and SurfaceArea of Cylinder",
-      "text": "step2-script-volume-SA-of-cylinder.md",
+      "title": "Exception Handling: using-try-except",
+      "text": "step2-exception-using-try-except.md",
       "code": "clearScreen.sh"
     },
      {
-      "title": "Script: Operate on List Elements",
-      "text": "step3-script-list-elements.md",
-      "code": "clearScreen1.sh"
+      "title": "Exception Handling: using-try-except-finally",
+      "text": "step3-exception-using-try-except-finally.md",
+      "code": "clearScreen.sh"
+    },
+     {
+      "title": "Exception Handling: ValueError",
+      "text": "step4-exception-ValueError.md",
+      "code": "clearScreen.sh"
+    },
+     {
+      "title": "Exception Handling: ZeroDivisionError",
+      "text": "step5-exception-ZeroDivisionError.md",
+      "code": "clearScreen.sh"
     }
     ],
     "intro": {

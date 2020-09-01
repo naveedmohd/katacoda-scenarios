@@ -1,12 +1,12 @@
-Python Script to print Volume and SurfaceArea of Cylinder
+Below is an example of handling exception using "try" and "except" block
 
-Print the current working directory using pwd command.
+Here, the user is required to provide a valid integer values for calculating cylinder dimensions.
 
 `
 pwd
 `{{execute}}
 
-List all the files in the current working directory using ls command.
+List the file in the current working directory using ls command.
 
 `
 ls -l volume-surface-area.py
