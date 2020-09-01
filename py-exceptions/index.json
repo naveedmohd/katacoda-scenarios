@@ -1,0 +1,47 @@
+{
+  "title": "Python: Exception Handling.",
+  "description": "Python: Exception Handling.",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Exceptions: Example",
+      "text": "step1-exceptions-example.md",
+      "code": "launchpython.sh"
+    },
+     {
+      "title": "Script: Compute Volume and SurfaceArea of Cylinder",
+      "text": "step2-script-volume-SA-of-cylinder.md",
+      "code": "clearScreen.sh"
+    },
+     {
+      "title": "Script: Operate on List Elements",
+      "text": "step3-script-list-elements.md",
+      "code": "clearScreen1.sh"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*.py",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
