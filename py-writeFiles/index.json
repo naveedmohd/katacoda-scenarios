@@ -1,0 +1,47 @@
+{
+  "title": "Python: Writing Files.",
+  "description": "Python: Writing Files.",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Writing File write mode: Helloworld",
+      "text": "step1-write-file-writemode.md",
+      "code": "clearScreen1.sh"
+    },
+     {
+      "title": "Writing File append mode: Helloworld",
+      "text": "step2-write-file-appendmode.md",
+      "code": "clearScreen1.sh"
+    },
+     {
+      "title": "Writing CSV File: Use csv library",
+      "text": "step3-write-csv-file.md",
+      "code": "clearScreen1.sh"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*.*",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
