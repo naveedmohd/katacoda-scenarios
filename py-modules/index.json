@@ -8,12 +8,12 @@
      {
       "title": "Create Math Module",
       "text": "step1-create-math-mdoule.md",
-      "code": "clearScreen1.sh"
+      "code": "launchpython.sh"
     },
      {
       "title": "Import Math module and call functions",
       "text": "step2-import-math-module.md",
-      "code": "clearScreen1.sh"
+      "code": "clearScreen.sh"
     }
     ],
     "intro": {
