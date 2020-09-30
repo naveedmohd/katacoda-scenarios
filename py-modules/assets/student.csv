@@ -1,0 +1,5 @@
+student_id,course_registered,credit_points,is_course_online
+1000,Python Programming,4.0,True
+2000,Java Programming,4.0,True
+3000,Machine Learning,4.0,True
+4000,Artificial Intelligence,4.0,True

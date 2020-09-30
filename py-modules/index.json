@@ -1,0 +1,42 @@
+{
+  "title": "Python: Modules.",
+  "description": "Python: Modules.",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [
+     {
+      "title": "Create Math Module",
+      "text": "step1-create-math-mdoule.md",
+      "code": "clearScreen1.sh"
+    },
+     {
+      "title": "Import Math module and call functions",
+      "text": "step2-import-math-module.md",
+      "code": "clearScreen1.sh"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*.*",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
