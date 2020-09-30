@@ -7,7 +7,7 @@ import mathmodule
 
 
 `
-getnumbers.py
+python getnumbers.py
 `{{execute}}
 
 
